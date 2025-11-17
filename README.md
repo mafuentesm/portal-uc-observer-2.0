@@ -13,9 +13,7 @@ Instala las dependencias con:
 ## Configuración
 
 1. Abre el archivo `main.py.`
-
 Modifica las siguientes variables según la página que quieras vigilar:
-
 2. Modifica las siguientes variables según la página a observar:
 
 ```
@@ -29,8 +27,7 @@ PASSWORD=contrasena_portal
 ## Notas
 
 - En macOS, las notificaciones se muestran con AppleScript (osascript), garantizando persistencia.
-- En Windows/Linux, se usa `plyer` (si está instalado).
-- Si la página no está disponible, el programa seguirá intentando cada CHECK_INTERVAL segundos.
+- En Windows/Linux, se usa `win10toast`; WIP!
 
 ## Autor
 
